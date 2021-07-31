@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<androidx.core.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:id="@+id/play_number_one"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="play"
+            />
+        <VideoView
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/play_number_one"
+            android:id="@+id/video_number_one"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/video_number_one"
+            android:id="@+id/play_number_two"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="play"
+            />
+        <VideoView
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/play_number_two"
+            android:id="@+id/video_number_two"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/video_number_two"
+            android:id="@+id/play_number_three"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="play"
+            />
+        <VideoView
+            android:layout_below="@id/play_number_three"
+            android:id="@+id/video_number_three"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_height="100dp"/>
+        <Button
+            android:layout_centerVertical="true"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/video_number_three"
+            android:id="@+id/play_number_for"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="play"
+            />
+        <VideoView
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/play_number_for"
+            android:id="@+id/video_number_for"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"/>
+
+        <Button
+            android:layout_centerInParent="true"
+            android:layout_below="@id/video_number_for"
+            android:id="@+id/links"
+            android:onClick="links"
+            android:text="for more videos click here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

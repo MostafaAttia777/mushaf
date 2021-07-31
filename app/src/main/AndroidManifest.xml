@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mushaf.quran">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_ramadan"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.Mushaf.Quran.KhalidbinFahdAlJalil.Test_for_khaild"></activity>
+        <activity android:name="com.Mushaf.Quran.KhalidbinFahdAlJalil.KhalidbinFahdAlJalil" />
+        <activity android:name="com.Mushaf.Quran.Reading.Reading" />
+        <activity android:name="com.Mushaf.Quran.Online.web2" />
+        <activity android:name="com.Mushaf.Quran.splash.Mysplash_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.Mushaf.Quran.MyFviv" />
+        <activity android:name="com.Mushaf.Quran.Rcycel.Language" />
+        <activity android:name="com.Mushaf.Quran.AbdAlbast.TestForAbdAlBAST" />
+        <activity android:name="com.Mushaf.Quran.AbdAlbast.AbdAlbast" />
+        <activity android:name="com.Mushaf.Quran.Tblway.TestForTablayw" />
+        <activity android:name="com.Mushaf.Quran.Tblway.Tablawy" />
+        <activity android:name="com.Mushaf.Quran.Almanshay.TestFormanshy" />
+        <activity android:name="com.Mushaf.Quran.Almanshay.ALmanshay" />
+        <activity android:name="com.Mushaf.Quran.yasserAldoasery.test" />
+        <activity android:name="com.Mushaf.Quran.yasserAldoasery.info_yasser" />
+        <activity android:name="com.Mushaf.Quran.Reader.MainActivity" />
+    </application>
+
+</manifest>

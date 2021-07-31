@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "511082951954",
+    "firebase_url": "https://mushaf-e490a.firebaseio.com",
+    "project_id": "mushaf-e490a",
+    "storage_bucket": "mushaf-e490a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511082951954:android:5c0111fb1e5c4be441efcb",
+        "android_client_info": {
+          "package_name": "com.Mushaf.Quran.Reader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511082951954-n8r0rnqs83sq7s596daskkealimvep6p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Mushaf.Quran.Reader",
+            "certificate_hash": "87355193a2e2094371b3c365fc8346f54905f13d"
+          }
+        },
+        {
+          "client_id": "511082951954-r6itkoqevo2krpr0mis6r8hptees90nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0994R5Ha7WiPg0liutHFgxHpfcvlDyoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511082951954-r6itkoqevo2krpr0mis6r8hptees90nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511082951954:android:10d3eaff7a62fb2b41efcb",
+        "android_client_info": {
+          "package_name": "com.example.xtoz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511082951954-r6itkoqevo2krpr0mis6r8hptees90nt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0994R5Ha7WiPg0liutHFgxHpfcvlDyoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511082951954-r6itkoqevo2krpr0mis6r8hptees90nt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

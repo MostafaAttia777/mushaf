@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+android:id="@+id/my_cood"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.Mushaf.Quran.yasserAldoasery.info_yasser">
+
+
+            <RelativeLayout
+                android:id="@+id/myr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#000">
+
+                <ImageView
+
+                    android:id="@+id/image"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:src="@drawable/q1" />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@id/image"
+                    android:text="@string/one1"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/tet2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text1"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@id/image"
+                    android:text="@string/two1"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:gravity="center"
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tet2"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@id/image"
+                    android:text="@string/three1"
+                    android:textColor="#fff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/lasttext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/text3"
+                    android:layout_marginBottom="5dp"
+                    android:layout_toRightOf="@id/image"
+                    android:text="@string/forr1"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <RatingBar
+                    android:background="#161515"
+                    android:id="@+id/myritng"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/lasttext"
+                    android:layout_toRightOf="@id/image"
+                    android:numStars="3"
+                    android:stepSize="1" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:id="@+id/mylin"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/myritng"
+                    android:layout_margin="5dp">
+
+                    <VideoView
+                        android:id="@+id/my_first_video"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/my_tab"
+                    android:layout_below="@id/mylin"
+                    app:tabTextColor="#fff"
+                    app:tabSelectedTextColor="#d4af37"
+                    app:tabIndicatorColor="#fff"
+                    android:background="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <androidx.viewpager.widget.ViewPager
+                    android:layout_margin="5dp"
+                    android:id="@+id/my_tv_pager"
+                    android:layout_below="@id/my_tab"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/animation_view1"
+                    android:layout_width="300dp"
+                    android:layout_height="70dp"
+                    android:layout_toRightOf="@id/myritng"
+                    android:layout_below="@id/lasttext"
+                    app:lottie_fileName="lo.json"
+                    app:lottie_loop="false"
+                    android:layout_alignParentRight="true" />
+            </RelativeLayout>
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

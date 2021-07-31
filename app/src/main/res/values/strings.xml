@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">mushaf</string>
+
+    <string name="yasset"> yasser Al doasray</string>
+    <string name="manshyw"> AL manshay</string>
+    <string name="abdalbast"> Abdul Basit Abdul Samad</string>
+    <string name="tablay">Al Tablawy</string>
+    <string name="x1"> Khalid bin Fahd Al Jalil</string>
+
+
+    <string name="buutin">English</string>
+    <string name="buutin2">arabic</string>
+
+    <string name="setting">Language</string>
+    <string name="fifvrot">Favorite</string>
+
+
+    <string name="one">name: Abdul Basit Abdul Samad</string>
+    <string name="two">job: reader</string>
+    <string name="three">nationality: Egyptian</string>
+    <string name="forr">Education: Egyptian Quran reader</string>
+
+    <string name="one1">name: yasser Al doasery</string>
+    <string name="two1">job: reader</string>
+    <string name="three1">nationality: Saudi</string>
+    <string name="forr1">Education: Imam Muhammad Bin Saud Islamic University</string>
+
+
+    <string name="one2">name: ALmanshay</string>
+    <string name="two2">job: reader</string>
+    <string name="three2">nationality: Egyptian</string>
+    <string name="forr2">Education: Egyptian Quran reader</string>
+
+    <string name="one3">name: Al Tablawy</string>
+    <string name="two3">job: reader</string>
+    <string name="three3">nationality: Egyptian</string>
+    <string name="forr3">Education: Egyptian Quran reader</string>
+
+    <string name="a1">name: Khalid bin Fahd Al Jalil</string>
+    <string name="a2">job: reader</string>
+    <string name="a3">nationality: Saudi</string>
+    <string name="a4">Education: Imam of the King Khalid Mosque, Umm Al-Hamam, in Riyadh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

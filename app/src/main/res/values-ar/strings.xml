@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">المصحف</string>
+
+    <string name="yasset"> ياسر بن راشد الدوسري</string>
+    <string name="manshyw"> المنشاوي</string>
+    <string name="abdalbast"> عبد الباسط عبد الصمد</string>
+    <string name="tablay">الطبلاوي</string>
+    <string name="x1"> خالد بن فهد الجليل</string>
+
+
+    <string name="buutin">الانجليزيه</string>
+    <string name="buutin2">العربيه</string>
+    <string name="setting">الاعدادات</string>
+    <string name="fifvrot">المفضله</string>
+
+
+    <string name="one">الاسم:عبد الباسط عبد الصمد</string>
+    <string name="two">الوظيفه: قارئ القرآن</string>
+    <string name="three">الجنسية:مصري</string>
+    <string name="forr">قاري قران مصري</string>
+
+    <string name="one1">الاسم: ياسر بن راشد الدوسري</string>
+    <string name="two1">الوظيفه:د/ قارئ القرآن</string>
+    <string name="three1">الجنسيه:سعودي</string>
+    <string name="forr1">المؤهل:جامعة الإمام محمد بن سعود الإسلامية</string>
+
+    <string name="one2">الاسم:محمد صديق المنشاوي</string>
+    <string name="two2">الوظيفه: قارئ القرآن</string>
+    <string name="three2">الجنسية:مصري</string>
+    <string name="forr2">قاري قران مصري</string>
+
+    <string name="one3">الاسم:محمد محمود الطبلاوي</string>
+    <string name="two3">الوظيفه: قارئ القرآن</string>
+    <string name="three3">الجنسية:مصري</string>
+    <string name="forr3">قاري قران مصري</string>
+
+    <string name="a1">الاسم: خالد بن فهد الجليل</string>
+    <string name="a2">الوظيفه:د/ قارئ القرآن</string>
+    <string name="a3">الجنسيه:سعودي</string>
+    <string name="a4">إمام جامع الملك خالد بأم الحمام بمدينة الرياض</string>
+
+
+</resources>

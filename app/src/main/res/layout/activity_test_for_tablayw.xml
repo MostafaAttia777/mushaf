@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/d1"
+    tools:context="com.Mushaf.Quran.Tblway.TestForTablayw">
+
+
+    <TextView
+        android:textSize="10sp"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignLeft="@id/myseekq"
+        android:layout_centerInParent="true"
+        android:textColor="#FDFDFD"
+        android:text="0:00"
+        android:id="@+id/start_musicq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginRight="-30dp"
+        android:textSize="10sp"
+        android:id="@+id/end_musicq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/myseekq"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:textColor="#FFF1F1" />
+
+    <SeekBar
+        android:layout_margin="5dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/myseekq"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        />
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/plyq"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/myseekq"
+        android:src="@drawable/ic_play_arrow_black_24dp"
+        android:background="@drawable/shap"
+        android:text="play" />
+
+</RelativeLayout>

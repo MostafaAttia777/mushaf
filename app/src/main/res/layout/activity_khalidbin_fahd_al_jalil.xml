@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Mushaf.Quran.KhalidbinFahdAlJalil.KhalidbinFahdAlJalil">
+
+
+
+    <RelativeLayout
+        android:id="@+id/myra"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000">
+
+        <ImageView
+            android:id="@+id/imagea_kh"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/aaa"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/text1a_kh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/imagea_kh"
+            android:text="@string/a1"
+            android:textColor="#fff"
+            android:gravity="center"
+
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:gravity="center"
+            android:id="@+id/tet2a_kh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1a_kh"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/imagea_kh"
+            android:text="@string/a2"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/text3a_kh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tet2a_kh"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/imagea_kh"
+            android:text="@string/a3"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/lasttexta_kh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text3a_kh"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@id/imagea_kh"
+            android:text="@string/a4"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:gravity="left"
+            android:textStyle="bold" />
+
+
+
+        <RatingBar
+            android:background="#161515"
+            android:id="@+id/myritnga_kh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lasttexta_kh"
+            android:layout_toRightOf="@id/imagea_kh"
+            android:numStars="3"
+            android:stepSize=".5" />
+
+        <LinearLayout
+            android:id="@+id/mylina_kh"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@id/myritnga_kh"
+            android:layout_margin="5dp">
+
+            <VideoView
+                android:id="@+id/my_first_videoa_kh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/my_taba_kh"
+            android:layout_below="@id/mylina_kh"
+            app:tabTextColor="#fff"
+            app:tabSelectedTextColor="#d4af37"
+            app:tabIndicatorColor="#fff"
+            android:background="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <androidx.viewpager.widget.ViewPager
+            android:layout_margin="5dp"
+            android:id="@+id/my_tv_pageraa_kh"
+            android:layout_below="@id/my_taba_kh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view1_kh"
+            android:layout_width="300dp"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@id/myritnga_kh"
+            android:layout_below="@id/lasttexta_kh"
+            app:lottie_fileName="lo.json"
+            app:lottie_loop="false"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+</RelativeLayout>
